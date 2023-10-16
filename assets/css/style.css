@@ -573,7 +573,7 @@ section {
   font-size: 20px;
   left: 0;
   top: -3px;
-  color: #ffc451;
+  color: #209d5c;
 }
 
 .about .content p:last-child {
@@ -612,7 +612,7 @@ section {
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc451;
+  background-color: #209d5c;
 }
 
 /*--------------------------------------------------------------
@@ -666,7 +666,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #ffc451;
+  background: #209d5c;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -693,13 +693,18 @@ section {
 }
 
 .services .icon-box h4 a:hover {
-  color: #ffc451;
+  color: #209d5c;
 }
 
 .services .icon-box p {
+  text-align: left;
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+}
+
+.services .icon-box p i{
+  color: #209d5c;
 }
 
 .services .icon-box:hover {
@@ -1555,8 +1560,13 @@ section {
 
 
 
+/* Custom css I added */
 
 .svg{
   height: 50px;
   width: 50px;
+}
+
+.some-services {
+  color: #ffffff;
 }
